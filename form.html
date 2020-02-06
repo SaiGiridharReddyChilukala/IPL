@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="D:\WT-1\formvalidation.js"></script>
+	Registration Form
+	<title>registration form</title>
+	<style type="text/css">
+	     *{font-style: italic;
+	     background-color:#FFFFE0;
+	     color: #00008B;}
+    </style>
+</head>
+<body>
+	<form name="registration" onsubmit="return formvalidation();">
+		<table cellspacing="20">
+        <tr> 
+        	<td>Team Name:</td>
+			<td><input type="text" name="team"></td><br/>
+		</tr>
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="fname"><br/></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name="lname"><br/></td>
+		</tr>
+		<tr>
+			<td>Zip Code:</td>
+			<td><input type="number" name="zip"><br></td>
+		</tr>
+		<tr>
+			<td>Mob no.</td>
+			<td><input type="number" name="mno."><br/></td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td><input type="radio" name="r1">Male</td>
+			<td><input type="radio" name="r2">Female</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="c1">I have read all the terms and conditions</td><br/>
+			<td><input type="checkbox" name="c2">I agree all the terms and conditions</td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="s1" value="submit"></td><br/>
+		</tr>
+		<tr>
+			<td><a href="login.html" target="f4"><button type="button">If already a member</button></a>
+			</td></tr> 
+		</table>
+
+	</form>
+</body>
+</html>

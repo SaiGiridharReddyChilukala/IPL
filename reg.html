@@ -1,0 +1,36 @@
+<html>
+<head>
+        <style>
+            *{
+        color:#66FCF1;
+             font-style:"verdana";
+            background-color: #1F2833;
+}
+</style>
+<script type="text/javascript" src="function validation().js"></script>
+</head>
+<body> 
+<h1 style="text-align: center"> REGISTRATION FORM </h1>           
+<form name="RegForm"  onsubmit="return validation()" method="post">  
+      
+    <p style="text-align: center">Name: <input type="text" size=65 name="Name"> </p><br>        
+    <p style="text-align: center"> Address: <input type="text" size=65 name="Address">  </p><br> 
+    <p style="text-align: center">E-mail Address: <input type="text" size=65 name="Email">  </p><br> 
+     <p style="text-align: center">Password: <input type="text" size=65 name="Password"> </p><br> 
+    <p style="text-align: center">Telephone: <input type="text" size=65 name="Telephone"> </p><br>   
+           
+    <p style="text-align: center">SELECT   
+        <select type="text" value="" name="country"> 
+            <option>INDIA</option> 
+            <option>USA</option> 
+            <option>ENGLAND</option> 
+            <option>AUSTRAILA</option>  
+            <option>IRAQ</option> 
+        </select></p><br><br> 
+    <p style="text-align: center">About: <textarea cols="55" name="About">  </textarea></p> 
+    <p style="text-align: center"><input type="submit" value="send" name="Submit">      
+        <input type="reset" value="Reset" name="Reset">   
+    </p>          
+</form> 
+</body>
+</html>
